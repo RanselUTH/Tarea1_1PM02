@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tarea1_1PM02.MainPage" BackgroundColor="#FAF2F2">
+
+    <StackLayout >
+
+        <Label Margin="130"/>
+        <Entry x:Name="txtnumero1" Placeholder="Introducir un numero..." PlaceholderColor="DarkGray" TextColor="Black" HorizontalTextAlignment="Center"  HorizontalOptions="Center" FontSize="28" Keyboard="Numeric" ></Entry>
+        <Entry x:Name="txtnumero2" Placeholder="Introducir un numero..." PlaceholderColor="DarkGray" TextColor="Black" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="28" Keyboard="Numeric" ></Entry>
+
+        <Label Margin="10"/>
+        <Button x:Name="btnsuma" 
+                Text="Sumar + Numeros"
+                CornerRadius="40"
+                HorizontalOptions="Center"
+                BackgroundColor="Green"
+                Clicked="btnsuma_Clicked"/>
+
+        <Button x:Name="btnresta"
+                Text="Restar - Numeros"
+                CornerRadius="40"
+                HorizontalOptions="Center" 
+                BackgroundColor="Green"
+                Clicked="btnresta_Clicked"/>
+
+        <Button x:Name="btnmulti"
+                Text="Multiplicar * Numeros"
+                CornerRadius="40"
+                HorizontalOptions="Center"
+                BackgroundColor="Green"
+                Clicked="btnmulti_Clicked"/>
+
+        <Button x:Name="btndividir"
+                Text="Dividir / Numeros"
+                CornerRadius="40"
+                HorizontalOptions="Center"
+                BackgroundColor="Green"
+                Clicked="btndividir_Clicked"/>
+        
+    </StackLayout>
+
+</ContentPage>
